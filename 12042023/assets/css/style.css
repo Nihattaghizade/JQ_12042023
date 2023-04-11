@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: gainsboro;
+  display: flex;
+}
+.body .img1 {
+  position: absolute;
+  width: 140px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 580px;
+  border-radius: 13px;
+}
+.body .img1 img {
+  width: 140px;
+  height: 250px;
+}
+.body .img2 {
+  position: absolute;
+  width: 140px;
+  height: 250px;
+  margin-top: 580px;
+  margin-left: 270px;
+  border-radius: 13px;
+}
+.body .img2 img {
+  width: 140px;
+  height: 250px;
+}
+.body .img3 {
+  position: absolute;
+  width: 140px;
+  height: 250px;
+  margin-top: 580px;
+  margin-left: 440px;
+  border-radius: 13px;
+}
+.body .img3 img {
+  width: 140px;
+  height: 250px;
+}
+.body .picturebox {
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: azure;
+}
+.body .picturebox img {
+  width: 350px;
+  height: 500px;
+  margin-left: 70px;
+}
+.body .info {
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.body .info h1 {
+  font-size: 40px;
+}
+.body .info .a {
+  margin-top: 40px;
+}
+.body .info .cost {
+  font-size: 40px;
+  margin-top: 50px;
+}
+.body .info .cost span:nth-child(1) {
+  color: blueviolet;
+}
+.body .info .cost span:nth-child(2) {
+  margin-left: 20px;
+  color: orange;
+}
+.body .info .text {
+  margin-top: 40px;
+}
+.body .info .feature {
+  display: flex;
+  margin-top: 40px;
+}
+.body .info .feature button {
+  padding: 7px 8px;
+  background-color: gray;
+  color: azure;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.body .info .share {
+  display: flex;
+  margin-top: 20px;
+}
+.body .info .share .logo1 {
+  border-radius: 100%;
+  padding: 5px 7px;
+  background-color: gray;
+  margin-left: 10px;
+}
+.body .info .share .logo2 {
+  border-radius: 100%;
+  padding: 3px 5px;
+  background-color: gray;
+  margin-left: 10px;
+}
+.body .info .share .logo3 {
+  border-radius: 100%;
+  padding: 3px 5px;
+  background-color: gray;
+  margin-left: 10px;
+}
+.body .info .miniline {
+  background-color: gray;
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+}
+.body .info .btn1 {
+  background-color: blue;
+  color: azure;
+  padding: 10px 25px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.body .info .btn2 {
+  background-color: blue;
+  color: azure;
+  padding: 10px 25px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color: blueviolet;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+}
+footer .logo {
+  margin-top: 50px;
+}
+footer .logo img {
+  width: 60px;
+  height: 60px;
+}
+footer .end {
+  margin-top: 50px;
+}
+footer .end p {
+  margin-left: 800px;
+  color: azure;
+}/*# sourceMappingURL=style.css.map */
